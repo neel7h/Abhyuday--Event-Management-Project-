@@ -10,6 +10,9 @@ It gives the amount used for the events and other financial details to the admin
 # Front End                    :   HTML,CSS, JAVASCRIPT, JQUERY, AJAX
 # Back End                     :   PhpMyAdmin MySQL 
 
+# Admin Login Details
+id= admin
+pass= @lph#@
 
 
 
@@ -35,3 +38,16 @@ It gives the amount used for the events and other financial details to the admin
 <a href="https://imgur.com/3UzRyK0"><img src="https://i.imgur.com/3UzRyK0.png" title="source: imgur.com" /></a>
 
 <a href="https://imgur.com/spTva0t"><img src="https://i.imgur.com/spTva0t.png" title="source: imgur.com" /></a>
+
+
+# Admin
+
+<a href="https://imgur.com/oprD6ge"><img src="https://i.imgur.com/oprD6ge.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/gcZiLyB"><img src="https://i.imgur.com/gcZiLyB.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/8yoKNsJ"><img src="https://i.imgur.com/8yoKNsJ.png" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/rN93KhV"><img src="https://i.imgur.com/rN93KhV.png" title="source: imgur.com" /></a>
+
+
