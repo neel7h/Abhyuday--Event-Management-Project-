@@ -14,5 +14,4 @@ It gives the amount used for the events and other financial details to the admin
 
 
 # images
-https://i.imgur.com/LScg43O.png
-
+<a href="https://imgur.com/LScg43O"><img src="https://i.imgur.com/LScg43O.png" title="source: imgur.com" /></a>
