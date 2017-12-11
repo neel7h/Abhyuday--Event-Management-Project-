@@ -1,0 +1,42 @@
+
+		<link rel="stylesheet" href="compiled/flipclock.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="compiled/flipclock.js"></script>
+	
+	<div class="clock" style="margin:2em;" margin-right: auto; margin-left: auto;></div>
+	<div class="message" margin-right: auto; margin-left: auto;></div>
+
+	<script type="text/javascript">
+		var clock;
+		
+		$(document).ready(function() {
+			var clock;
+
+			clock = $('.clock').FlipClock({
+		        clockFace: 'DailyCounter',
+		        autoStart: false,
+		        callbacks: {
+		        	stop: function() {
+		        		$('.message').html('The clock has stopped!')
+		        	}
+		        }
+		    });
+				    var timmed = new Date().getTime() + 15*60;
+					var event_date = new Date();
+					event_date.setTime(1495454400000); //set to abhyuday date ( covert date to miliseconds) http://www.fileformat.info/tip/java/date2millis.htm 
+					
+					//event_date.setDate(17);
+					//event_date.setMonth(2);
+					//event_date.setHours(9);
+					//event_date.set(9);
+					//event_date.setHours(9);
+					var today=new Date();
+					var rem_date=(event_date.getTime()-today.getTime())/1000;
+		    clock.setTime(rem_date);
+		    clock.setCountdown(true);
+		    clock.start();
+
+		});
+	</script>
