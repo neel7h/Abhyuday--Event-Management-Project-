@@ -1,5 +1,6 @@
 <div id="panel">
 	<div class="row">
+		
 		<div class="twelve columns">
 			<img src="images/info.png" class="pics" alt="info">
 			<div class="infotext">
